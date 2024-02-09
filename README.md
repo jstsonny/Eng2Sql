@@ -8,7 +8,11 @@ Open your IDE. Create an environment. In terminal, run command:
   conda create -p venv python==<any version 3.10 or later> -y
 
 Run Command: 
-  conda activate venv/           
+  conda activate venv/
+
+Create .env file
+Go to https://makersuite.google.com/app/apikey
+Generate an API Key and paste GOOGLE_API_KEY="<apiKey>" into the .env file          
 
 Run Command:
   python sqlite.py
