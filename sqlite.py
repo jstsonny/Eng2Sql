@@ -22,7 +22,7 @@ cursor.execute(table_info)
 classes = ['Ai', 'Data Science', 'Math', 'Algorithms']
 sections = ['A', 'B', 'C', 'D']
 
-first_names = ["Dinuk", "Daniel", "Sonny", "Hadii" "Alex", "Jamie", "Jordan", "Taylor", "Morgan", "Casey", "Riley", "Avery", "Reese", "Quinn", "Skyler", "Rowan", "Dakota", "Peyton", "Drew"]
+first_names = ["Dinuk", "Daniel", "Sonny", "Hadii", "Alex", "Jamie", "Jordan", "Taylor", "Morgan", "Casey", "Riley", "Avery", "Reese", "Quinn", "Skyler", "Rowan", "Dakota", "Peyton", "Drew"]
 last_names = ["Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor", "Anderson", "Thomas", "Jackson", "White", "Harris"]
 
 random_names = [random.choice(first_names) + " " + random.choice(last_names) for _ in range(50)]
